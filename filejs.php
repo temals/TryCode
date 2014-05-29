@@ -5,7 +5,8 @@ $(function()
 $(".kategori").change(function()
 {
 
-  alert("okeh");
+  val = $(this).val();
+  alert(val);
 });
 
 });
